@@ -1,0 +1,74 @@
+* {
+   box-sizing: border-box;
+}
+
+body {
+   background-color: #cccccc;
+   margin: 0;
+}
+
+/** Font **/
+p {
+   font-family: "Times New Roman", Times, serif;
+   font-size: 30px;
+}
+
+h3 {
+   font-family: "Times New Roman", Times, serif;
+   font-size: 20px;
+}
+
+/** header **/
+.header {
+   padding: 20px;
+   text-align: center;
+}
+
+/** Navigation **/
+.navigation {
+   overflow: hidden;
+   background-color: #000000;
+}
+
+.navigation a {
+   float: left;
+   display: block;
+   color: #f2f2f2;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+}
+
+.navigation a:hover {
+   background-color: #808080;
+   color: black;
+}
+
+/** Columns **/
+.column {
+   float: left;
+}
+
+.column.sides {
+   width: 25%;
+   align: center;
+   padding: 20px;
+   text-align: center;
+}
+
+.column.center {
+   width: 50%;
+   padding: 20px;
+   text-align: center;
+}
+
+/** Links **/
+a:link, a:visited {
+   text-align: center; 
+   text-decoration: none;
+   display: inline-block;
+}
+
+a:hover, a:active {
+   background-color: blue;
+}
